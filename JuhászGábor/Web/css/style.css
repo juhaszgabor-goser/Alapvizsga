@@ -1,0 +1,127 @@
+*{      /*alapbeállítás*/
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+    font-size:16px;    
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+header{
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    margin: 70px 0 10px 0;
+    height: 150px;
+    background-image: url("../img/hatter.jpg");  
+    text-align: center;
+    font-size: 70px;
+}
+
+h1{
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding-top: 50px;
+} 
+
+header nav{
+    text-align:right;
+    color: rgb(12, 11, 11);
+  
+}
+
+header nav a{
+    color: rgb(12, 11, 11);
+    margin-left:15px;
+    display: inline-block;  
+    padding: 10px 15px;    
+}
+
+header nav a:hover{
+    background-color: rgb(65, 65, 65);
+    box-shadow: inset 0 0 rgba(0,0,0,0.2);
+    color:rgb(137, 82, 82);
+    border-radius: 10%;
+}
+
+.box{
+    background-color: #f8f3f3f3;
+    height: 95%;
+    border: 1px rgb(235, 232, 232) ridge;
+    border-radius: 2%;
+    box-shadow:10px 10px 30px black;
+    text-justify: inherit;
+    margin:10px;
+    text-shadow: grey;
+    padding: 15;
+}
+
+.cim{
+    text-align:center;
+    background-color: rgba(#624116,0.2);
+    padding: 8px;
+}
+
+footer{
+    background-color: #6c757d;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+.img-fluid {
+  text-align: center;
+  height: 250px;
+  border-radius:  0px 0px 10px 10px;  
+}
+
+
+.navbar{
+    box-shadow: 0 0 10px black;
+    
+}
+
+form{
+    margin: 30px auto;
+    border-radius: 2%;
+    box-shadow:10px 10px 20px grey;
+}
+
+.klarinetos {
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type:square;
+    padding-left: 20px;
+}
+
+.table{
+    max-width: 600px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    box-shadow:10px 10px 20px grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    text-align: center;
+    font-weight: bold;
+}
+footer a:hover{
+    color:black;
+    background-color:white;
+    padding:10px;
+
+}
